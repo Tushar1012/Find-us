@@ -31,7 +31,7 @@ $ pip install django
 And then run the django-admin.py command to start the new project:
 
 $ django-admin.py startproject \
-  --template=https://github.com/nikola-k/django-template/zipball/master \
+  --template=https://github.com/taanish/Find-us/master \
   --extension=py,md \
   <project_name>
 No virtualenv
@@ -45,7 +45,7 @@ $ pip3 install django
 And then:
 
 $ python3 -m django startproject \
-  --template=https://github.com/nikola-k/django-template/zipball/master \
+ 
   --extension=py,md \
   <project_name>
 After that just install the local dependencies, run migrations, and start the server.
